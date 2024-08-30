@@ -18,18 +18,20 @@ def preprocessing(df):
     MEDIAN_CLASS_3 = df[df["Pclass"]==3]["Age"].median()
 
     def changeAge(para):
-        age = para[0]
-        booking_class = para[1]
+        age = para.iloc[0]
+        booking_class = para.iloc[1]
 
         if pd.isnull(age):
             if booking_class == 1:
                 return MEDIAN_CLASS_1
             elif booking_class == 2:    
-                 return MEDIAN_CLASS_2
+                return MEDIAN_CLASS_2
             else:
                 return MEDIAN_CLASS_3
         else: 
             return age
+        
+    df['Age'] = df[['Age', 'Pclass']].apply(changeAge, axis=1)
         
     train_titanic_file['Age'] = train_titanic_file[['Age','Pclass']].apply(changeAge, axis = 1)
 
