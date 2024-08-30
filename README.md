@@ -1,3 +1,3 @@
-First Attempt at Modeling the Infamous Titanic Dataset from Kaggle
+Der erste Versuch mit dem Titanic-Dataset von Kaggle.
 
-This represents my initial foray into using artificial intelligence for data science. I used Tensorflow and Keras machine learning techniques for this classic dataset.
+Ziel war es mithilfe von Tensorflow und Keras ein simples Modell zu erstellen, welches mindestens 85% Genauigkeit bei den Testdaten erreicht. 
