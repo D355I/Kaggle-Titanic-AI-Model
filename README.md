@@ -27,11 +27,14 @@ Dieses Repository enthält ein Machine-Learning-Projekt zur Vorhersage der Über
 ![Model](model_summary_titanic.png)
 
 # Erreichte Genauigkeit:
-Bei dem Stand des aktuellen Modells erreicht das Modell eine durchschnittliche Genaugikeit von c.a 82%. dieser Wert ist "gut" aber nicht perfekt. Er lässt sich durch folgende Faktoren verbessern: 
 
-	Anpassung der Batch_Size
- 	Anpassugn der Layer
-  	Anpassung der Anzahl der Trainingsepochen
+Das aktuelle Modell erreicht eine durchschnittliche Genauigkeit von etwa 82%, was ein solides Ergebnis darstellt, jedoch Raum für Optimierungen bietet. Die Modellperformance kann durch gezielte Anpassungen in den folgenden Bereichen weiter verbessert werden:
+
+	•	Anpassung der Batch-Größe: Eine sorgfältige Auswahl der Batch-Size kann die Konvergenzgeschwindigkeit und die Stabilität des 		Trainingsprozesses positiv beeinflussen. Kleinere Batches ermöglichen eine präzisere Gewichtsanpassung, während größere Batches für eine stabilere Gradientenberechnung sorgen.
+	•	Optimierung der Netzwerkarchitektur: Eine Feinabstimmung der Anzahl und Größe der Layer (z. B. Hinzufügen von Neuronen oder Layern) sowie die Implementierung fortschrittlicher Aktivierungsfunktionen kann die Lernkapazität des Modells erhöhen.
+	•	Anpassung der Trainingsepochen: Die Anzahl der Trainingsepochen sollte so gewählt werden, dass das Modell ausreichend lernt, ohne in Overfitting zu geraten. Eine systematische Evaluierung der Lernkurven kann dabei helfen, den optimalen Trainingszeitpunkt zu bestimmen.
+
+Durch die Kombination dieser Strategien kann das Modell hinsichtlich Genauigkeit und Generalisierungsfähigkeit optimiert werden, um präzisere Vorhersagen zu ermöglichen.
 
 ![Modell Acc](acc_model_titanic.png)!
 
