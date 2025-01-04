@@ -29,9 +29,11 @@ Dieses Repository enthält ein Machine-Learning-Projekt zur Vorhersage der Über
 # Erreichte Genauigkeit:
 Bei dem Stand des aktuellen Modells erreicht das Modell eine durchschnittliche Genaugikeit von c.a 82%. dieser Wert ist "gut" aber nicht perfekt. Er lässt sich durch folgende Faktoren verbessern: 
 
-	- Anpassung der Batch_Size
- 	- Anpassugn der Layer
-  	- Anpassung der Anzahl der Trainingsepochen
+	Anpassung der Batch_Size
+ 	Anpassugn der Layer
+  	Anpassung der Anzahl der Trainingsepochen
+
+![Modell Acc](acc_model_titanic)!
 
 
    
