@@ -33,7 +33,7 @@ Bei dem Stand des aktuellen Modells erreicht das Modell eine durchschnittliche G
  	Anpassugn der Layer
   	Anpassung der Anzahl der Trainingsepochen
 
-![Modell Acc](acc_model_titanic)!
+![Modell Acc](acc_model_titanic.png)!
 
 
    
